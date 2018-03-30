@@ -1,5 +1,5 @@
 # dont-starve-together-electron-vue-typescript
-
+git push -u origin master
 > A starter project for an Electron app built with Vue in TypeScript. Originally based on the [electron-vue boilerplate](https://github.com/SimulatedGREG/electron-vue).
 
 #### Build Setup
