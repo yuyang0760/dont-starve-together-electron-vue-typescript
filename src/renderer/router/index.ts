@@ -11,8 +11,8 @@ export default new Router({
       component: require('@/components/LandingPage').default
     },
     {
-      path: '/first-page',
-      name: 'first-page',
+      path: '/first_page',
+      name: 'first_page',
       component: require('@/components/FirstPage.vue').default
     },
     {

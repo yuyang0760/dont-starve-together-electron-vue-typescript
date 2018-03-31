@@ -79,26 +79,25 @@ export function writeFile(filePath: string, baseSet: BaseSet): void {
 
   // 如果文件存在
   var config = ini.parse(fs.readFileSync(filePath, 'utf-8'));
-  config.game_mode=baseSet.gameMode;
-  config.max_players=baseSet.maxPlayers;
-  config.pvp=baseSet.isPvP;
-  config.pause_when_empty=baseSet.isPause;
-  config.lan_only_cluster=baseSet.lan_only_cluster;
-  config.cluster_intention=baseSet.gameStyle;
-  config.cluster_description=baseSet.describe;
-  config.cluster_name=baseSet.houseName;
-  config.offline_cluster=baseSet.serverMode;
-  config.cluster_password=baseSet.secret;
-  config.console_enabled=baseSet.console_enabled;
-  config.shard_enabled=baseSet.shard_enabled;
-  config.bind_ip=baseSet.bind_ip;
-  config.master_ip=baseSet.master_ip;
-  config.master_port=baseSet.master_port;
-  config.cluster_key=baseSet.cluster_key;
+  config.GAMEPLAY.game_mode=baseSet.gameMode;
+  config.GAMEPLAY.max_players=baseSet.maxPlayers;
+  config.GAMEPLAY.pvp=baseSet.isPvP;
+  config.GAMEPLAY.pause_when_empty=baseSet.isPause;
+  config.NETWORK.lan_only_cluster=baseSet.lan_only_cluster;
+  config.NETWORK.cluster_intention=baseSet.gameStyle;
+  config.NETWORK.cluster_description=baseSet.describe;
+  config.NETWORK.cluster_name=baseSet.houseName;
+  config.NETWORK.offline_cluster=baseSet.serverMode;
+  config.NETWORK.cluster_password=baseSet.secret;
+  config.MISC.console_enabled=baseSet.console_enabled;
+  config.SHARD.shard_enabled=baseSet.shard_enabled;
+  config.SHARD.bind_ip=baseSet.bind_ip;
+  config.SHARD.master_ip=baseSet.master_ip;
+  config.SHARD.master_port=baseSet.master_port;
+  config.SHARD.cluster_key=baseSet.cluster_key;
 
   console.log(config);
 
-  fs.writeFileSync(filePath, ini.stringify(config));
-  console.log(filePath);
+  fs.writeFile(filePath, ini.stringify(config));
   console.log("结束 根据baseSet对象写入cluster.ini文件.")
 }

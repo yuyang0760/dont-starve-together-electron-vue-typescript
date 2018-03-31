@@ -4,8 +4,8 @@
  */
 export class BaseSet {
     constructor() {
-        this.houseName="";
-        this.describe="",
+        this.houseName="yy的房间";
+        this.describe ="饥荒交流群:580332268,^_^",
         this.gameStyle="";
         this.serverMode=false;
         this.isPvP=false;

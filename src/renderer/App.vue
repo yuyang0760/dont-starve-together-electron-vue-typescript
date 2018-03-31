@@ -1,6 +1,6 @@
 <template>
  <div id="app">
-    <router-link to="/first-page">
+    <router-link to="/first_page">
       <div>个人中心</div>
     </router-link>
     <router-link to="/second-page">
