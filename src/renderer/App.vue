@@ -20,5 +20,13 @@ export default Vue.extend({
 </script>
 
 <style>
-/* CSS */
+/* CSS 主页*/
+@import url("I:/dont-starve-together-electron-vue-typescript/node_modules/bootstrap/dist/css/bootstrap.css");
+@import url("I:/dont-starve-together-electron-vue-typescript/node_modules/bootstrap/dist/css/bootstrap-theme.css");
+
+/* // label {
+//     color: rgb(212, 114, 21);
+//   } */
+
+
 </style>

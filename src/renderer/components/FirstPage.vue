@@ -8,7 +8,7 @@
     </div>
     <div>
       <label>名称</label>
-      <input type="text" v-model="housename" @change="housename_change"/>
+      <input type="text" v-model="housename" @change="housename_change" />
     </div>
         <div>
       <label>描述</label>
@@ -194,6 +194,7 @@ export default class first_page extends Vue {
   servermode_change(ele: any) {
     baseset.serverMode = this.servermode_selected;
     writeFile("./resources/cluster1.ini", baseset);
+
   }
   ispause_change(ele: any) {
     baseset.isPause = this.ispause_selected;
@@ -220,5 +221,7 @@ export default class first_page extends Vue {
 </script>
 
 <style>
+
+
 
 </style>
