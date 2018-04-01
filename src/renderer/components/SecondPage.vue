@@ -35,16 +35,6 @@ export default class second_page extends Vue {
         { text: "name3", value: "n3" },
         { text: "name4", value: "n4" }
       ]
-    },
-        {
-      src: "",
-      alt: "你好",
-      option: [
-        { text: "name1", value: "n1" },
-        { text: "name2", value: "n2" },
-        { text: "name3", value: "n3" },
-        { text: "name4", value: "n4" }
-      ]
     }
   ];
 
