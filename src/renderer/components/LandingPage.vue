@@ -6,7 +6,7 @@
         <span class="title">
           Welcome to your new project!
         </span>
-        <system-information></system-information>
+        <system-information1></system-information1>
       </div>
 
       <div class="right-side">
@@ -31,11 +31,11 @@
 
 <script lang="ts">
 import Vue from "vue";
-import SystemInformation from "./LandingPage/SystemInformation.vue";
+import SystemInformation1 from "./LandingPage/SystemInformation.vue";
 
 export default Vue.extend({
   name: "landing-page",
-  components: { SystemInformation },
+  components: { SystemInformation1 },
   methods: {
     open(link: string) {
       Electron.shell.openExternal(link);

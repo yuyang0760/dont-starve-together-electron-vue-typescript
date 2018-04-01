@@ -3,7 +3,7 @@
     <router-link to="/first_page">
       <div>个人中心</div>
     </router-link>
-    <router-link to="/second-page">
+    <router-link to="/second_page">
       <div>个人中心</div>
     </router-link>
     <router-view> </router-view>

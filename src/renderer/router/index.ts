@@ -16,8 +16,8 @@ export default new Router({
       component: require('@/components/FirstPage.vue').default
     },
     {
-      path: '/second-page',
-      name: 'second-page',
+      path: '/second_page',
+      name: 'second_page',
       component: require('@/components/SecondPage.vue').default
     },
     {
