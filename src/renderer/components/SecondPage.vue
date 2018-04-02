@@ -1,6 +1,6 @@
 <template>
   <div>
-    <selectwithpic :src="item.src" :alt="item.alt" :option="item.option" v-for="item in items" :key="item.id"></selectwithpic>
+    <selectwithpic :src="v_items.pic" :id="v_items.ID" @selectedinfo="whichselected" :yvalue="v_items.value" :alt="v_items.desc" :option="v_items.option" v-for="(v_items,k_items) in items" :key="k_items"></selectwithpic>
 
   </div>
 </template>
@@ -17,7 +17,7 @@ map.set("mst", {
   filePath: "./resources/worldgenoverride-master.lua",
   forestOrCave: "forest"
 });
-let worldi: worldInterface = readFromFile(map);
+
 
 @Component({
   components: {
@@ -25,31 +25,20 @@ let worldi: worldInterface = readFromFile(map);
   }
 })
 export default class second_page extends Vue {
-  items = [
-    {
-      src: "",
-      alt: "你好",
-      option: [
-        { text: "name1", value: "n1" },
-        { text: "name2", value: "n2" },
-        { text: "name3", value: "n3" },
-        { text: "name4", value: "n4" }
-      ]
-    }
-  ];
-
+  items = {};
+  worldi:worldInterface = readFromFile(map);
   created() {
-    console.log(worldi);
+    console.log(this.worldi);
     // 遍历世界 取出所有数据 // 先取出mst中的试验吧
-
-    // let datas = worldi.world["mst"].data;
-    // for (const key in datas) {
-    //   if (datas.hasOwnProperty(key)) {
-    //     const value = datas[key];
-        
-    //   }
-    // }
+    this.items = this.worldi["world"]["mst"]["data"];
   }
+
+  whichselected(selectedinfo:any){
+    // console.log(selectedinfo['id'],selectedinfo['selectedvalue']);
+    this.worldi.world['mst'].data['alternatehunt'].value=selectedinfo['selectedvalue'];
+    // console.log(this.worldi);
+  }
+
 }
 </script>
 
