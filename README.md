@@ -4,6 +4,8 @@ git push -u origin master
 
 #### Build Setup
 
+做了一些,但是build总是出错,先放一放
+
 ``` bash
 # install dependencies
 npm install
