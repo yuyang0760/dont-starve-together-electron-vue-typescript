@@ -71,7 +71,7 @@ export function writeFile(filePath: string, baseSet: BaseSet): void {
     // 创建目录
     fs.mkdirsSync(path.dirname(filePath));
     // 复制模板文件
-    fs.copySync("./resources/cluster.ini",filePath);
+    fs.copySync("./src/renderer/resources/cluster.ini",filePath);
 
     console.log("创建cluster.ini文件完成");
     return;

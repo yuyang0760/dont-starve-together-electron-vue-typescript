@@ -14,7 +14,7 @@ import selectwithpic from "./SelectWithPic/SelectWithPic.vue";
 
 let map: Map<string, worldmap> = new Map();
 map.set("mst", {
-  filePath: "./resources/worldgenoverride-master.lua",
+  filePath: "./src/renderer/resources/worldgenoverride-master.lua",
   forestOrCave: "forest"
 });
 
@@ -34,7 +34,7 @@ export default class second_page extends Vue {
   }
 
   whichselected(selectedinfo:any){
-    // console.log(selectedinfo['id'],selectedinfo['selectedvalue']);
+    console.log(selectedinfo['id'],selectedinfo['selectedvalue']);
     this.worldi.world['mst'].data['alternatehunt'].value=selectedinfo['selectedvalue'];
     // console.log(this.worldi);
   }

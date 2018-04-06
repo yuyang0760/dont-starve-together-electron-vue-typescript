@@ -2,7 +2,7 @@
     "worldItems": {
         "task_set": {
             "ID": "task_set",
-            "pic": "./resources/worldPic/task_set",
+            "pic": "./src/renderer/resources/worldPic/task_set",
             "desc": "生物群系",
             "defaultValue": "default",
             "option": {
@@ -13,7 +13,7 @@
         },
         "start_location": {
             "ID": "start_location",
-            "pic": "./resources/worldPic/start_location",
+            "pic": "./src/renderer/resources/worldPic/start_location",
             "desc": "出生区域",
             "defaultValue": "default",
             "option": {
@@ -26,7 +26,7 @@
         },
         "world_size": {
             "ID": "world_size",
-            "pic": "./resources/worldPic/world_size",
+            "pic": "./src/renderer/resources/worldPic/world_size",
             "desc": "世界大小",
             "defaultValue": "default",
             "option": {
@@ -39,7 +39,7 @@
         },
         "branching": {
             "ID": "branching",
-            "pic": "./resources/worldPic/branching",
+            "pic": "./src/renderer/resources/worldPic/branching",
             "desc": "分叉路",
             "defaultValue": "default",
             "option": {
@@ -52,7 +52,7 @@
         },
         "loop": {
             "ID": "loop",
-            "pic": "./resources/worldPic/loop",
+            "pic": "./src/renderer/resources/worldPic/loop",
             "desc": "环形路",
             "defaultValue": "default",
             "option": {
@@ -64,7 +64,7 @@
         },
         "autumn": {
             "ID": "autumn",
-            "pic": "./resources/worldPic/autumn",
+            "pic": "./src/renderer/resources/worldPic/autumn",
             "desc": "秋季",
             "defaultValue": "default",
             "option": {
@@ -80,7 +80,7 @@
         },
         "winter": {
             "ID": "winter",
-            "pic": "./resources/worldPic/winter",
+            "pic": "./src/renderer/resources/worldPic/winter",
             "desc": "冬季",
             "defaultValue": "default",
             "option": {
@@ -96,7 +96,7 @@
         },
         "spring": {
             "ID": "spring",
-            "pic": "./resources/worldPic/spring",
+            "pic": "./src/renderer/resources/worldPic/spring",
             "desc": "春季",
             "defaultValue": "default",
             "option": {
@@ -112,7 +112,7 @@
         },
         "summer": {
             "ID": "summer",
-            "pic": "./resources/worldPic/summer",
+            "pic": "./src/renderer/resources/worldPic/summer",
             "desc": "夏季",
             "defaultValue": "default",
             "option": {
@@ -128,7 +128,7 @@
         },
         "season_start": {
             "ID": "season_start",
-            "pic": "./resources/worldPic/season_start",
+            "pic": "./src/renderer/resources/worldPic/season_start",
             "desc": "开始季节",
             "defaultValue": "default",
             "option": {
@@ -144,7 +144,7 @@
         },
         "day": {
             "ID": "day",
-            "pic": "./resources/worldPic/day",
+            "pic": "./src/renderer/resources/worldPic/day",
             "desc": "时间设置",
             "defaultValue": "default",
             "option": {
@@ -163,7 +163,7 @@
         },
         "weather": {
             "ID": "weather",
-            "pic": "./resources/worldPic/weather",
+            "pic": "./src/renderer/resources/worldPic/weather",
             "desc": "降雨",
             "defaultValue": "default",
             "option": {
@@ -177,7 +177,7 @@
         },
         "earthquakes": {
             "ID": "earthquakes",
-            "pic": "./resources/worldPic/earthquakes",
+            "pic": "./src/renderer/resources/worldPic/earthquakes",
             "desc": "地震",
             "defaultValue": "default",
             "option": {
@@ -191,7 +191,7 @@
         },
         "lightning": {
             "ID": "lightning",
-            "pic": "./resources/worldPic/lightning",
+            "pic": "./src/renderer/resources/worldPic/lightning",
             "desc": "闪电",
             "defaultValue": "default",
             "option": {
@@ -205,7 +205,7 @@
         },
         "frograin": {
             "ID": "frograin",
-            "pic": "./resources/worldPic/frograin",
+            "pic": "./src/renderer/resources/worldPic/frograin",
             "desc": "青蛙雨",
             "defaultValue": "default",
             "option": {
@@ -219,7 +219,7 @@
         },
         "wildfires": {
             "ID": "wildfires",
-            "pic": "./resources/worldPic/wildfires",
+            "pic": "./src/renderer/resources/worldPic/wildfires",
             "desc": "自燃",
             "defaultValue": "default",
             "option": {
@@ -233,7 +233,7 @@
         },
         "touchstone": {
             "ID": "touchstone",
-            "pic": "./resources/worldPic/touchstone",
+            "pic": "./src/renderer/resources/worldPic/touchstone",
             "desc": "复活石",
             "defaultValue": "default",
             "option": {
@@ -247,7 +247,7 @@
         },
         "regrowth": {
             "ID": "regrowth",
-            "pic": "./resources/worldPic/regrowth",
+            "pic": "./src/renderer/resources/worldPic/regrowth",
             "desc": "世界再生",
             "defaultValue": "default",
             "option": {
@@ -261,7 +261,7 @@
         },
         "cavelight": {
             "ID": "cavelight",
-            "pic": "./resources/worldPic/cavelight",
+            "pic": "./src/renderer/resources/worldPic/cavelight",
             "desc": "洞穴透光",
             "defaultValue": "default",
             "option": {
@@ -275,7 +275,7 @@
         },
         "boons": {
             "ID": "boons",
-            "pic": "./resources/worldPic/boons",
+            "pic": "./src/renderer/resources/worldPic/boons",
             "desc": "失败的幸存者",
             "defaultValue": "default",
             "option": {
@@ -289,7 +289,7 @@
         },
         "prefabswaps_start": {
             "ID": "prefabswaps_start",
-            "pic": "./resources/worldPic/prefabswaps_start",
+            "pic": "./src/renderer/resources/worldPic/prefabswaps_start",
             "desc": "开始资源种类",
             "defaultValue": "default",
             "option": {
@@ -301,7 +301,7 @@
         },
         "flowers": {
             "ID": "flowers",
-            "pic": "./resources/worldPic/flowers",
+            "pic": "./src/renderer/resources/worldPic/flowers",
             "desc": "花&恶魔花",
             "defaultValue": "default",
             "option": {
@@ -315,7 +315,7 @@
         },
         "grass": {
             "ID": "grass",
-            "pic": "./resources/worldPic/grass",
+            "pic": "./src/renderer/resources/worldPic/grass",
             "desc": "草",
             "defaultValue": "default",
             "option": {
@@ -329,7 +329,7 @@
         },
         "sapling": {
             "ID": "sapling",
-            "pic": "./resources/worldPic/sapling",
+            "pic": "./src/renderer/resources/worldPic/sapling",
             "desc": "小树枝",
             "defaultValue": "default",
             "option": {
@@ -343,7 +343,7 @@
         },
         "marshbush": {
             "ID": "marshbush",
-            "pic": "./resources/worldPic/marshbush",
+            "pic": "./src/renderer/resources/worldPic/marshbush",
             "desc": "荆棘丛",
             "defaultValue": "default",
             "option": {
@@ -357,7 +357,7 @@
         },
         "tumbleweed": {
             "ID": "tumbleweed",
-            "pic": "./resources/worldPic/tumbleweed",
+            "pic": "./src/renderer/resources/worldPic/tumbleweed",
             "desc": "风滚草",
             "defaultValue": "default",
             "option": {
@@ -371,7 +371,7 @@
         },
         "reeds": {
             "ID": "reeds",
-            "pic": "./resources/worldPic/reeds",
+            "pic": "./src/renderer/resources/worldPic/reeds",
             "desc": "芦苇",
             "defaultValue": "default",
             "option": {
@@ -385,7 +385,7 @@
         },
         "trees": {
             "ID": "trees",
-            "pic": "./resources/worldPic/trees",
+            "pic": "./src/renderer/resources/worldPic/trees",
             "desc": "树（所有种类）",
             "defaultValue": "default",
             "option": {
@@ -399,7 +399,7 @@
         },
         "flint": {
             "ID": "flint",
-            "pic": "./resources/worldPic/flint",
+            "pic": "./src/renderer/resources/worldPic/flint",
             "desc": "燧石",
             "defaultValue": "default",
             "option": {
@@ -413,7 +413,7 @@
         },
         "rock": {
             "ID": "rock",
-            "pic": "./resources/worldPic/rock",
+            "pic": "./src/renderer/resources/worldPic/rock",
             "desc": "岩石",
             "defaultValue": "default",
             "option": {
@@ -427,7 +427,7 @@
         },
         "rock_ice": {
             "ID": "rock_ice",
-            "pic": "./resources/worldPic/rock_ice",
+            "pic": "./src/renderer/resources/worldPic/rock_ice",
             "desc": "小型冰川",
             "defaultValue": "default",
             "option": {
@@ -441,7 +441,7 @@
         },
         "meteorspawner": {
             "ID": "meteorspawner",
-            "pic": "./resources/worldPic/meteorspawner",
+            "pic": "./src/renderer/resources/worldPic/meteorspawner",
             "desc": "陨石生成区域",
             "defaultValue": "default",
             "option": {
@@ -455,7 +455,7 @@
         },
         "meteorshowers": {
             "ID": "meteorshowers",
-            "pic": "./resources/worldPic/meteorshowers",
+            "pic": "./src/renderer/resources/worldPic/meteorshowers",
             "desc": "陨石降落频率",
             "defaultValue": "default",
             "option": {
@@ -469,7 +469,7 @@
         },
         "berrybush": {
             "ID": "berrybush",
-            "pic": "./resources/worldPic/berrybush",
+            "pic": "./src/renderer/resources/worldPic/berrybush",
             "desc": "浆果丛",
             "defaultValue": "default",
             "option": {
@@ -483,7 +483,7 @@
         },
         "carrot": {
             "ID": "carrot",
-            "pic": "./resources/worldPic/carrot",
+            "pic": "./src/renderer/resources/worldPic/carrot",
             "desc": "萝卜",
             "defaultValue": "default",
             "option": {
@@ -497,7 +497,7 @@
         },
         "mushroom": {
             "ID": "mushroom",
-            "pic": "./resources/worldPic/mushroom",
+            "pic": "./src/renderer/resources/worldPic/mushroom",
             "desc": "蘑菇",
             "defaultValue": "default",
             "option": {
@@ -511,7 +511,7 @@
         },
         "cactus": {
             "ID": "cactus",
-            "pic": "./resources/worldPic/cactus",
+            "pic": "./src/renderer/resources/worldPic/cactus",
             "desc": "仙人掌",
             "defaultValue": "default",
             "option": {
@@ -525,7 +525,7 @@
         },
         "rabbits": {
             "ID": "rabbits",
-            "pic": "./resources/worldPic/rabbits",
+            "pic": "./src/renderer/resources/worldPic/rabbits",
             "desc": "兔子",
             "defaultValue": "default",
             "option": {
@@ -539,7 +539,7 @@
         },
         "moles": {
             "ID": "moles",
-            "pic": "./resources/worldPic/moles",
+            "pic": "./src/renderer/resources/worldPic/moles",
             "desc": "鼹鼠",
             "defaultValue": "default",
             "option": {
@@ -553,7 +553,7 @@
         },
         "butterfly": {
             "ID": "butterfly",
-            "pic": "./resources/worldPic/butterfly",
+            "pic": "./src/renderer/resources/worldPic/butterfly",
             "desc": "蝴蝶",
             "defaultValue": "default",
             "option": {
@@ -567,7 +567,7 @@
         },
         "birds": {
             "ID": "birds",
-            "pic": "./resources/worldPic/birds",
+            "pic": "./src/renderer/resources/worldPic/birds",
             "desc": "鸟",
             "defaultValue": "default",
             "option": {
@@ -581,7 +581,7 @@
         },
         "buzzard": {
             "ID": "buzzard",
-            "pic": "./resources/worldPic/buzzard",
+            "pic": "./src/renderer/resources/worldPic/buzzard",
             "desc": "秃鹫",
             "defaultValue": "default",
             "option": {
@@ -595,7 +595,7 @@
         },
         "catcoon": {
             "ID": "catcoon",
-            "pic": "./resources/worldPic/catcoon",
+            "pic": "./src/renderer/resources/worldPic/catcoon",
             "desc": "浣猫",
             "defaultValue": "default",
             "option": {
@@ -609,7 +609,7 @@
         },
         "perd": {
             "ID": "perd",
-            "pic": "./resources/worldPic/perd",
+            "pic": "./src/renderer/resources/worldPic/perd",
             "desc": "火鸡",
             "defaultValue": "default",
             "option": {
@@ -623,7 +623,7 @@
         },
         "pigs": {
             "ID": "pigs",
-            "pic": "./resources/worldPic/pigs",
+            "pic": "./src/renderer/resources/worldPic/pigs",
             "desc": "猪人",
             "defaultValue": "default",
             "option": {
@@ -637,7 +637,7 @@
         },
         "lightninggoat": {
             "ID": "lightninggoat",
-            "pic": "./resources/worldPic/lightninggoat",
+            "pic": "./src/renderer/resources/worldPic/lightninggoat",
             "desc": "电羊",
             "defaultValue": "default",
             "option": {
@@ -651,7 +651,7 @@
         },
         "beefalo": {
             "ID": "beefalo",
-            "pic": "./resources/worldPic/beefalo",
+            "pic": "./src/renderer/resources/worldPic/beefalo",
             "desc": "皮弗娄牛",
             "defaultValue": "default",
             "option": {
@@ -665,7 +665,7 @@
         },
         "beefaloheat": {
             "ID": "beefaloheat",
-            "pic": "./resources/worldPic/beefaloheat",
+            "pic": "./src/renderer/resources/worldPic/beefaloheat",
             "desc": "皮弗娄牛发情频率",
             "defaultValue": "default",
             "option": {
@@ -679,7 +679,7 @@
         },
         "hunt": {
             "ID": "hunt",
-            "pic": "./resources/worldPic/hunt",
+            "pic": "./src/renderer/resources/worldPic/hunt",
             "desc": "脚印",
             "defaultValue": "default",
             "option": {
@@ -693,7 +693,7 @@
         },
         "alternatehunt": {
             "ID": "alternatehunt",
-            "pic": "./resources/worldPic/alternatehunt",
+            "pic": "./src/renderer/resources/worldPic/alternatehunt",
             "desc": "狩猎惊喜",
             "defaultValue": "default",
             "option": {
@@ -707,7 +707,7 @@
         },
         "penguins": {
             "ID": "penguins",
-            "pic": "./resources/worldPic/penguins",
+            "pic": "./src/renderer/resources/worldPic/penguins",
             "desc": "企鸥",
             "defaultValue": "default",
             "option": {
@@ -721,7 +721,7 @@
         },
         "cave_ponds": {
             "ID": "cave_ponds",
-            "pic": "./resources/worldPic/cave_ponds",
+            "pic": "./src/renderer/resources/worldPic/cave_ponds",
             "desc": "池塘",
             "defaultValue": "default",
             "option": {
@@ -735,7 +735,7 @@
         },
         "ponds": {
             "ID": "ponds",
-            "pic": "./resources/worldPic/ponds",
+            "pic": "./src/renderer/resources/worldPic/ponds",
             "desc": "池塘",
             "defaultValue": "default",
             "option": {
@@ -749,7 +749,7 @@
         },
         "bees": {
             "ID": "bees",
-            "pic": "./resources/worldPic/bees",
+            "pic": "./src/renderer/resources/worldPic/bees",
             "desc": "蜜蜂",
             "defaultValue": "default",
             "option": {
@@ -763,7 +763,7 @@
         },
         "angrybees": {
             "ID": "angrybees",
-            "pic": "./resources/worldPic/angrybees",
+            "pic": "./src/renderer/resources/worldPic/angrybees",
             "desc": "杀人蜂",
             "defaultValue": "default",
             "option": {
@@ -777,7 +777,7 @@
         },
         "tallbirds": {
             "ID": "tallbirds",
-            "pic": "./resources/worldPic/tallbirds",
+            "pic": "./src/renderer/resources/worldPic/tallbirds",
             "desc": "高鸟",
             "defaultValue": "default",
             "option": {
@@ -791,7 +791,7 @@
         },
         "spiders": {
             "ID": "spiders",
-            "pic": "./resources/worldPic/spiders",
+            "pic": "./src/renderer/resources/worldPic/spiders",
             "desc": "蜘蛛",
             "defaultValue": "default",
             "option": {
@@ -805,7 +805,7 @@
         },
         "hounds": {
             "ID": "hounds",
-            "pic": "./resources/worldPic/hounds",
+            "pic": "./src/renderer/resources/worldPic/hounds",
             "desc": "猎犬突袭",
             "defaultValue": "default",
             "option": {
@@ -819,7 +819,7 @@
         },
         "houndmound": {
             "ID": "houndmound",
-            "pic": "./resources/worldPic/houndmound",
+            "pic": "./src/renderer/resources/worldPic/houndmound",
             "desc": "猎犬窝",
             "defaultValue": "default",
             "option": {
@@ -833,7 +833,7 @@
         },
         "merm": {
             "ID": "merm",
-            "pic": "./resources/worldPic/merm",
+            "pic": "./src/renderer/resources/worldPic/merm",
             "desc": "鱼人",
             "defaultValue": "default",
             "option": {
@@ -847,7 +847,7 @@
         },
         "tentacles": {
             "ID": "tentacles",
-            "pic": "./resources/worldPic/tentacles",
+            "pic": "./src/renderer/resources/worldPic/tentacles",
             "desc": "触手",
             "defaultValue": "default",
             "option": {
@@ -861,7 +861,7 @@
         },
         "chess": {
             "ID": "chess",
-            "pic": "./resources/worldPic/chess",
+            "pic": "./src/renderer/resources/worldPic/chess",
             "desc": "发条生物",
             "defaultValue": "default",
             "option": {
@@ -875,7 +875,7 @@
         },
         "lureplants": {
             "ID": "lureplants",
-            "pic": "./resources/worldPic/lureplants",
+            "pic": "./src/renderer/resources/worldPic/lureplants",
             "desc": "诱饵草",
             "defaultValue": "default",
             "option": {
@@ -889,7 +889,7 @@
         },
         "walrus": {
             "ID": "walrus",
-            "pic": "./resources/worldPic/walrus",
+            "pic": "./src/renderer/resources/worldPic/walrus",
             "desc": "海象营地",
             "defaultValue": "default",
             "option": {
@@ -903,7 +903,7 @@
         },
         "liefs": {
             "ID": "liefs",
-            "pic": "./resources/worldPic/liefs",
+            "pic": "./src/renderer/resources/worldPic/liefs",
             "desc": "树人守卫",
             "defaultValue": "default",
             "option": {
@@ -917,7 +917,7 @@
         },
         "deciduousmonster": {
             "ID": "deciduousmonster",
-            "pic": "./resources/worldPic/deciduousmonster",
+            "pic": "./src/renderer/resources/worldPic/deciduousmonster",
             "desc": "毒桦树",
             "defaultValue": "default",
             "option": {
@@ -931,7 +931,7 @@
         },
         "krampus": {
             "ID": "krampus",
-            "pic": "./resources/worldPic/krampus",
+            "pic": "./src/renderer/resources/worldPic/krampus",
             "desc": "坎普斯",
             "defaultValue": "default",
             "option": {
@@ -945,7 +945,7 @@
         },
         "bearger": {
             "ID": "bearger",
-            "pic": "./resources/worldPic/bearger",
+            "pic": "./src/renderer/resources/worldPic/bearger",
             "desc": "熊獾",
             "defaultValue": "default",
             "option": {
@@ -959,7 +959,7 @@
         },
         "deerclops": {
             "ID": "deerclops",
-            "pic": "./resources/worldPic/deerclops",
+            "pic": "./src/renderer/resources/worldPic/deerclops",
             "desc": "独眼巨鹿",
             "defaultValue": "default",
             "option": {
@@ -973,7 +973,7 @@
         },
         "goosemoose": {
             "ID": "goosemoose",
-            "pic": "./resources/worldPic/goosemoose",
+            "pic": "./src/renderer/resources/worldPic/goosemoose",
             "desc": "鹿角鹅",
             "defaultValue": "default",
             "option": {
@@ -987,7 +987,7 @@
         },
         "dragonfly": {
             "ID": "dragonfly",
-            "pic": "./resources/worldPic/dragonfly",
+            "pic": "./src/renderer/resources/worldPic/dragonfly",
             "desc": "龙蝇",
             "defaultValue": "default",
             "option": {
@@ -1001,7 +1001,7 @@
         },
         "antliontribute": {
             "ID": "antliontribute",
-            "pic": "./resources/worldPic/antliontribute",
+            "pic": "./src/renderer/resources/worldPic/antliontribute",
             "desc": "antliontribute",
             "defaultValue": "default",
             "option": {

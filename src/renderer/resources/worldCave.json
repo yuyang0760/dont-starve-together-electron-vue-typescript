@@ -2,7 +2,7 @@
     "worldItems": {
         "task_set": {
             "ID": "task_set",
-            "pic": "./resources/worldPic/task_set",
+            "pic": "./src/renderer/resources/worldPic/task_set",
             "desc": "生物群系",
             "defaultValue": "cave_default",
             "option": {
@@ -13,7 +13,7 @@
         },
         "start_location": {
             "ID": "start_location",
-            "pic": "./resources/worldPic/start_location",
+            "pic": "./src/renderer/resources/worldPic/start_location",
             "desc": "出生区域",
             "defaultValue": "default",
             "option": {
@@ -26,7 +26,7 @@
         },
         "world_size": {
             "ID": "world_size",
-            "pic": "./resources/worldPic/world_size",
+            "pic": "./src/renderer/resources/worldPic/world_size",
             "desc": "世界大小",
             "defaultValue": "default",
             "option": {
@@ -39,7 +39,7 @@
         },
         "branching": {
             "ID": "branching",
-            "pic": "./resources/worldPic/branching",
+            "pic": "./src/renderer/resources/worldPic/branching",
             "desc": "分叉路",
             "defaultValue": "default",
             "option": {
@@ -52,7 +52,7 @@
         },
         "loop": {
             "ID": "loop",
-            "pic": "./resources/worldPic/loop",
+            "pic": "./src/renderer/resources/worldPic/loop",
             "desc": "环形路",
             "defaultValue": "default",
             "option": {
@@ -64,7 +64,7 @@
         },
         "weather": {
             "ID": "weather",
-            "pic": "./resources/worldPic/weather",
+            "pic": "./src/renderer/resources/worldPic/weather",
             "desc": "降雨",
             "defaultValue": "default",
             "option": {
@@ -78,7 +78,7 @@
         },
         "earthquakes": {
             "ID": "earthquakes",
-            "pic": "./resources/worldPic/earthquakes",
+            "pic": "./src/renderer/resources/worldPic/earthquakes",
             "desc": "地震",
             "defaultValue": "default",
             "option": {
@@ -92,7 +92,7 @@
         },
         "lightning": {
             "ID": "lightning",
-            "pic": "./resources/worldPic/lightning",
+            "pic": "./src/renderer/resources/worldPic/lightning",
             "desc": "闪电",
             "defaultValue": "default",
             "option": {
@@ -106,7 +106,7 @@
         },
         "frograin": {
             "ID": "frograin",
-            "pic": "./resources/worldPic/frograin",
+            "pic": "./src/renderer/resources/worldPic/frograin",
             "desc": "青蛙雨",
             "defaultValue": "default",
             "option": {
@@ -120,7 +120,7 @@
         },
         "touchstone": {
             "ID": "touchstone",
-            "pic": "./resources/worldPic/touchstone",
+            "pic": "./src/renderer/resources/worldPic/touchstone",
             "desc": "复活石",
             "defaultValue": "default",
             "option": {
@@ -134,7 +134,7 @@
         },
         "cavelight": {
             "ID": "cavelight",
-            "pic": "./resources/worldPic/cavelight",
+            "pic": "./src/renderer/resources/worldPic/cavelight",
             "desc": "洞穴透光",
             "defaultValue": "default",
             "option": {
@@ -148,7 +148,7 @@
         },
         "boons": {
             "ID": "boons",
-            "pic": "./resources/worldPic/boons",
+            "pic": "./src/renderer/resources/worldPic/boons",
             "desc": "失败的幸存者",
             "defaultValue": "default",
             "option": {
@@ -162,7 +162,7 @@
         },
         "disease_delay": {
             "ID": "disease_delay",
-            "pic": "./resources/worldPic/disease_delay",
+            "pic": "./src/renderer/resources/worldPic/disease_delay",
             "desc": "disease_delay",
             "defaultValue": "default",
             "option": {
@@ -176,7 +176,7 @@
         },
         "prefabswaps_start": {
             "ID": "prefabswaps_start",
-            "pic": "./resources/worldPic/prefabswaps_start",
+            "pic": "./src/renderer/resources/worldPic/prefabswaps_start",
             "desc": "开始资源种类",
             "defaultValue": "default",
             "option": {
@@ -188,7 +188,7 @@
         },
         "petrification": {
             "ID": "petrification",
-            "pic": "./resources/worldPic/petrification",
+            "pic": "./src/renderer/resources/worldPic/petrification",
             "desc": "petrification",
             "defaultValue": "default",
             "option": {
@@ -202,7 +202,7 @@
         },
         "grass": {
             "ID": "grass",
-            "pic": "./resources/worldPic/grass",
+            "pic": "./src/renderer/resources/worldPic/grass",
             "desc": "草",
             "defaultValue": "default",
             "option": {
@@ -216,7 +216,7 @@
         },
         "sapling": {
             "ID": "sapling",
-            "pic": "./resources/worldPic/sapling",
+            "pic": "./src/renderer/resources/worldPic/sapling",
             "desc": "小树枝",
             "defaultValue": "default",
             "option": {
@@ -230,7 +230,7 @@
         },
         "marshbush": {
             "ID": "marshbush",
-            "pic": "./resources/worldPic/marshbush",
+            "pic": "./src/renderer/resources/worldPic/marshbush",
             "desc": "荆棘丛",
             "defaultValue": "default",
             "option": {
@@ -244,7 +244,7 @@
         },
         "reeds": {
             "ID": "reeds",
-            "pic": "./resources/worldPic/reeds",
+            "pic": "./src/renderer/resources/worldPic/reeds",
             "desc": "芦苇",
             "defaultValue": "default",
             "option": {
@@ -258,7 +258,7 @@
         },
         "trees": {
             "ID": "trees",
-            "pic": "./resources/worldPic/trees",
+            "pic": "./src/renderer/resources/worldPic/trees",
             "desc": "树（所有种类）",
             "defaultValue": "default",
             "option": {
@@ -272,7 +272,7 @@
         },
         "flint": {
             "ID": "flint",
-            "pic": "./resources/worldPic/flint",
+            "pic": "./src/renderer/resources/worldPic/flint",
             "desc": "燧石",
             "defaultValue": "default",
             "option": {
@@ -286,7 +286,7 @@
         },
         "rock": {
             "ID": "rock",
-            "pic": "./resources/worldPic/rock",
+            "pic": "./src/renderer/resources/worldPic/rock",
             "desc": "岩石",
             "defaultValue": "default",
             "option": {
@@ -300,7 +300,7 @@
         },
         "mushtree": {
             "ID": "mushtree",
-            "pic": "./resources/worldPic/mushtree",
+            "pic": "./src/renderer/resources/worldPic/mushtree",
             "desc": "蘑菇树",
             "defaultValue": "default",
             "option": {
@@ -314,7 +314,7 @@
         },
         "fern": {
             "ID": "fern",
-            "pic": "./resources/worldPic/fern",
+            "pic": "./src/renderer/resources/worldPic/fern",
             "desc": "洞穴蕨菜",
             "defaultValue": "default",
             "option": {
@@ -328,7 +328,7 @@
         },
         "flower_cave": {
             "ID": "flower_cave",
-            "pic": "./resources/worldPic/flower_cave",
+            "pic": "./src/renderer/resources/worldPic/flower_cave",
             "desc": "灯笼花",
             "defaultValue": "default",
             "option": {
@@ -342,7 +342,7 @@
         },
         "wormlights": {
             "ID": "wormlights",
-            "pic": "./resources/worldPic/wormlights",
+            "pic": "./src/renderer/resources/worldPic/wormlights",
             "desc": "发光浆果",
             "defaultValue": "default",
             "option": {
@@ -356,7 +356,7 @@
         },
         "berrybush": {
             "ID": "berrybush",
-            "pic": "./resources/worldPic/berrybush",
+            "pic": "./src/renderer/resources/worldPic/berrybush",
             "desc": "浆果丛",
             "defaultValue": "default",
             "option": {
@@ -370,7 +370,7 @@
         },
         "mushroom": {
             "ID": "mushroom",
-            "pic": "./resources/worldPic/mushroom",
+            "pic": "./src/renderer/resources/worldPic/mushroom",
             "desc": "蘑菇",
             "defaultValue": "default",
             "option": {
@@ -384,7 +384,7 @@
         },
         "banana": {
             "ID": "banana",
-            "pic": "./resources/worldPic/banana",
+            "pic": "./src/renderer/resources/worldPic/banana",
             "desc": "洞穴香蕉",
             "defaultValue": "default",
             "option": {
@@ -398,7 +398,7 @@
         },
         "lichen": {
             "ID": "lichen",
-            "pic": "./resources/worldPic/lichen",
+            "pic": "./src/renderer/resources/worldPic/lichen",
             "desc": "苔藓",
             "defaultValue": "default",
             "option": {
@@ -412,7 +412,7 @@
         },
         "cave_ponds": {
             "ID": "cave_ponds",
-            "pic": "./resources/worldPic/cave_ponds",
+            "pic": "./src/renderer/resources/worldPic/cave_ponds",
             "desc": "池塘",
             "defaultValue": "default",
             "option": {
@@ -426,7 +426,7 @@
         },
         "slurper": {
             "ID": "slurper",
-            "pic": "./resources/worldPic/slurper",
+            "pic": "./src/renderer/resources/worldPic/slurper",
             "desc": "吞噬者",
             "defaultValue": "default",
             "option": {
@@ -440,7 +440,7 @@
         },
         "bunnymen": {
             "ID": "bunnymen",
-            "pic": "./resources/worldPic/bunnymen",
+            "pic": "./src/renderer/resources/worldPic/bunnymen",
             "desc": "兔人",
             "defaultValue": "default",
             "option": {
@@ -454,7 +454,7 @@
         },
         "slurtles": {
             "ID": "slurtles",
-            "pic": "./resources/worldPic/slurtles",
+            "pic": "./src/renderer/resources/worldPic/slurtles",
             "desc": "龟壳蜗牛",
             "defaultValue": "default",
             "option": {
@@ -468,7 +468,7 @@
         },
         "rocky": {
             "ID": "rocky",
-            "pic": "./resources/worldPic/rocky",
+            "pic": "./src/renderer/resources/worldPic/rocky",
             "desc": "石虾",
             "defaultValue": "default",
             "option": {
@@ -482,7 +482,7 @@
         },
         "monkey": {
             "ID": "monkey",
-            "pic": "./resources/worldPic/monkey",
+            "pic": "./src/renderer/resources/worldPic/monkey",
             "desc": "猴子",
             "defaultValue": "default",
             "option": {
@@ -496,7 +496,7 @@
         },
         "cave_spiders": {
             "ID": "cave_spiders",
-            "pic": "./resources/worldPic/cave_spiders",
+            "pic": "./src/renderer/resources/worldPic/cave_spiders",
             "desc": "蜘蛛",
             "defaultValue": "default",
             "option": {
@@ -510,7 +510,7 @@
         },
         "tentacles": {
             "ID": "tentacles",
-            "pic": "./resources/worldPic/tentacles",
+            "pic": "./src/renderer/resources/worldPic/tentacles",
             "desc": "触手",
             "defaultValue": "default",
             "option": {
@@ -524,7 +524,7 @@
         },
         "chess": {
             "ID": "chess",
-            "pic": "./resources/worldPic/chess",
+            "pic": "./src/renderer/resources/worldPic/chess",
             "desc": "发条生物",
             "defaultValue": "default",
             "option": {
@@ -538,7 +538,7 @@
         },
         "liefs": {
             "ID": "liefs",
-            "pic": "./resources/worldPic/liefs",
+            "pic": "./src/renderer/resources/worldPic/liefs",
             "desc": "树人守卫",
             "defaultValue": "default",
             "option": {
@@ -552,7 +552,7 @@
         },
         "bats": {
             "ID": "bats",
-            "pic": "./resources/worldPic/bats",
+            "pic": "./src/renderer/resources/worldPic/bats",
             "desc": "蝙蝠",
             "defaultValue": "default",
             "option": {
@@ -566,7 +566,7 @@
         },
         "fissure": {
             "ID": "fissure",
-            "pic": "./resources/worldPic/fissure",
+            "pic": "./src/renderer/resources/worldPic/fissure",
             "desc": "梦魇裂缝",
             "defaultValue": "default",
             "option": {
@@ -580,7 +580,7 @@
         },
         "wormattacks": {
             "ID": "wormattacks",
-            "pic": "./resources/worldPic/wormattacks",
+            "pic": "./src/renderer/resources/worldPic/wormattacks",
             "desc": "wormattacks",
             "defaultValue": "default",
             "option": {
@@ -594,7 +594,7 @@
         },
         "worms": {
             "ID": "worms",
-            "pic": "./resources/worldPic/worms",
+            "pic": "./src/renderer/resources/worldPic/worms",
             "desc": "洞穴蠕虫",
             "defaultValue": "default",
             "option": {

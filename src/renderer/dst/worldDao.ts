@@ -14,11 +14,11 @@ import * as parser from 'luaparse';
 // document.onclick = function () {
 
 //   let map: Map<string, worldmap> = new Map();
-//   // map.set("mst", { filePath: "./resources/worldgenoverride-master.lua", forestOrCave: "forest" });
-//   map.set("dixia", { filePath: "./resources/worldgenoverride-caves.lua", forestOrCave: "cave" });
-//   //  readFromFile_IDValue("./resources/worldgenoverride-master.lua");
+//   // map.set("mst", { filePath: "./src/renderer/resources/worldgenoverride-master.lua", forestOrCave: "forest" });
+//   map.set("dixia", { filePath: "./src/renderer/resources/worldgenoverride-caves.lua", forestOrCave: "cave" });
+//   //  readFromFile_IDValue("./src/renderer/resources/worldgenoverride-master.lua");
 //   writeFile(readFromFile(map));
-//   // readFromFile(["./resources/worldgenoverride-master.lua"]);
+//   // readFromFile(["./src/renderer/resources/worldgenoverride-master.lua"]);
 
 // };
 
@@ -36,7 +36,7 @@ export function readFromFile(map: Map<string, worldmap>): worldInterface {
     let IDValues: Map<string, string> = readFromFile_IDValue(wm.filePath);
 
     // 2.读取json里面 describe 以便赋值给 describe  Master
-    let worldItemsJson = fs.readJSONSync((wm.forestOrCave == "forest" ? "./resources/worldForest.json" : "./resources/worldCave.json"));
+    let worldItemsJson = fs.readJSONSync((wm.forestOrCave == "forest" ? "./src/renderer/resources/worldForest.json" : "./src/renderer/resources/worldCave.json"));
     // console.log(worldItemsJson);
 
     worldObj['world'][flag] = {};
@@ -51,7 +51,7 @@ export function readFromFile(map: Map<string, worldmap>): worldInterface {
       worldObj['world'][flag]["data"][key] = {};
       worldObj['world'][flag]["data"][key]['ID'] = key;
       worldObj['world'][flag]["data"][key]['value'] = value;
-      worldObj['world'][flag]["data"][key]['pic'] = "./resources/worldPic/" + key;
+      worldObj['world'][flag]["data"][key]['pic'] = "./src/renderer/resources/worldPic/" + key;
       worldObj['world'][flag]["data"][key]['desc'] = worldItemsJson['worldItems'][key] == undefined ? key : (worldItemsJson['worldItems'][key]["desc"]);
       worldObj['world'][flag]["data"][key]['defaultValue'] = worldItemsJson['worldItems'][key] == undefined ? value : (worldItemsJson['worldItems'][key]["defaultValue"]);
       worldObj['world'][flag]["data"][key]['whichType'] = worldItemsJson['worldItems'][key] == undefined ? "World" : (worldItemsJson['worldItems'][key]["whichType"]);
